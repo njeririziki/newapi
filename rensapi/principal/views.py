@@ -11,4 +11,8 @@ class PrincipalViewSet(viewsets.ModelViewSet):
 class DependantsViewSet(viewsets.ModelViewSet):
     queryset =Dependants.objects.all()
     serializer_class= DependantsSerializer
-    
+
+ 
+# def getFamily(request):
+#    if request.method== 'POST':
+#         return 
